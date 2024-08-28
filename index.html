@@ -1,12 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeira Página HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color:blue;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height:100vh;
+            overflow-x: hidden;
+
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        header {
+            background-color: aqua;
+            color: rgb(104, 16, 131);
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        h2{
+            color:black
+        }
+        p {
+            line-height: 1.6;
+        }
+        a{
+            color: rgb(235, 45, 12);
+            text-decoration: none;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Olá, Mundo!</h1>
-    <p>Este é o meu primeiro arquivo HTML</p>
+    <header>
+        <h1>Olá, Mundo!</h1>
+    </header>
+    <main>
+        <img src="https://cdn.icon-icons.com/icons2/112/PNG/512/html5_18891.png"
+            alt="Logo do HTML5" >
+            <h2>Sobre esta página</h2>
+        <p>Esta é uma página de exemplo criada para aprender os fundamentos do HTML.</p>
+        <h2>O que você vai aprender? </h2>
+        <p>Com esta página, você vai aprender a:</p>
+        <ul>
+            <li> Criar uma estrutura básica de html </li>
+            <li>Utilizar tags</li>
+            <li>Adicionar estilos básicos com CSS</li>
+            <li>Incorporar imagens e links</li>
+        </ul>
+        <h2>Links Úteis</h2>
+        <p>Confira mais recursos para aprender HTML</p>
+        <ul>
+            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+
+        </ul>
+    </main>
+    <footer>
+        <p>Desenvolvido por Luisa</p>
+    </footer>
 </body>
-</html>
