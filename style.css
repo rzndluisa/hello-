@@ -1,0 +1,13 @@
+body{
+    background-color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: blue;
+    background-color: rgb(0, 217, 255);
+    font-size: 30px;
+}
+img{
+    width: 50%;
+    height: 50%;
+}
